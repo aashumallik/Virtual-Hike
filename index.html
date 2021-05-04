@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body id="body">
+  <div id="fpscontrols"></div>
+  <div id="loading">Loading...</div>
+  <div id="loaded">
+  	<!-- This button is also used to start audio. -->
+  	<button id="start-button">Start</button>
+  </div>
+
+  <!-- 
+  	this is required because of the song licensing 
+  	it is royalty-free, but requires attribution
+  changed the UI
+  <div id="license-attribution">
+	<p>Song: Beauty Flow by Kevin MacLeod</p>
+	<p>
+		Link: <a href="https://incompetech.filmmusic.io/song/5025-beauty-flow">https://incompetech.filmmusic.io/song/5025-beauty-flow</a>
+	</p>
+	<p>
+		License: <a href="https://filmmusic.io/standard-license">https://filmmusic.io/standard-license</a>
+	</p>
+  </div>
+-->
+  <script src="https://unpkg.com/dat.gui@0.7.7/build/dat.gui.js"></script>
+  <script src="https://unpkg.com/three@0.91.0/build/three.min.js"></script>
+  <script src="build/THREE.Terrain.js?v=1"></script>
+  <script src="./index.js" type="module"></script>
+</body>
+</html>
